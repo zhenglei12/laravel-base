@@ -1,7 +1,7 @@
 <?php
 
 
-namespace XianCat\LaravelBase\Exceptions;
+namespace XianCat\LaravelBase\Exception;
 
 use Illuminate\Support\Facades\Route;
 use Throwable;
