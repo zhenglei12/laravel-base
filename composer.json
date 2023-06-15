@@ -1,5 +1,5 @@
 {
-    "name": "xiancat/laravel-base",
+    "name": "zhenglei12/laravel-base",
     "description": "定制jwt",
     "autoload": {
         "psr-4": {
