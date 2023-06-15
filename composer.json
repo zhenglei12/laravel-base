@@ -1,0 +1,27 @@
+{
+    "name": "xiancat/laravel-base",
+    "description": "定制jwt",
+    "autoload": {
+        "psr-4": {
+            "XianCat\\Passport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xianmao"
+        }
+    ],
+    "require": {
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "XianCat\\LaravelBase\\LaravelBaseProvider"
+            ],
+            "aliases": {
+                "ExceptionFactory": "XianCat\\LaravelBase\\Exception\\ExceptionFactoryFacade"
+            }
+        }
+    }
+}
